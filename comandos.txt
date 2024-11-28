@@ -1,0 +1,4 @@
+$ cat consumos.txt | grep -A  22 -B 1 "SEMANAS" > file1.txt
+$ cat consumos.txt | grep -A  4  "100" > a.txt   /   $ cat consumos.txt | grep -A  6 "EDIFICIO D" |grep -v "*"> d.txt
+$ cat totales.txt | grep "TOTAL"> file2.txt / $ cat consumos.txt | grep -A 2 "DIAS"|grep -v "*">> file2.txt /$ cat totales.txt | grep -A 5 "TOTAL"|grep -v "*">> file2.txt
+$ cat totales.txt | grep -v [2-9][0-9][0-9]
